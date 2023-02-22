@@ -4,7 +4,7 @@
   "description": "technical task",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/DineshBabu1989/clipBoardHealth#readme",
   "devDependencies": {
     "jest": "^29.4.3"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
   }
 }
